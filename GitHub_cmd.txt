@@ -1,0 +1,5 @@
+D: 
+
+cd GitHub\-EmranHn-.github.io
+
+python -m http.server

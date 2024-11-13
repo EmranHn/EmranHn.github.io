@@ -6,8 +6,8 @@
 		<title>Prologue by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets1/css/main.css" />
-		<link rel="shortcut icon" type="image/png" href="images1/EH3_fabicon.png" >
+		<link rel="stylesheet" href="assets15/css/main.css" />
+		<link rel="shortcut icon" type="image/png" href="images15/EH3_fabicon.png" >
 
 	</head>
 	<body class="is-preload">
@@ -36,15 +36,15 @@
 						<div id="logo">
 							<!-- <span class="image avatar48"><img src="images1/avatar.jpg" alt="" /></span>  -->
 							<h1 id="title">Emran Hamzehnezhad</h1>
-							<p> MSc in Mechanical Engineering</p>
+							<p> MSc, Mechanical Engineering</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-edit">Project Title</span></a></li>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-edit">Paper Title</span></a></li>
 								<li><a href="#Abstract" id="Abstract-link"><span class="icon solid fa-th">Abstract</span></a></li>
-								<li><a href="#GitHub_Code" id="github-link"><span class="icon solid fa-code">GitHub Code</span></a></li>
+								<!-- <li><a href="#GitHub_Code" id="github-link"><span class="icon solid fa-code">GitHub Code</span></a></li> -->
 								<li><a href="#Details" id="about-link"><span class="icon solid fa-tasks">Details</span></a></li>
 								<li><a href="#References" id="contact-link"><span class="icon solid fa-th-list">References</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
@@ -103,7 +103,8 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt"> Advanced Animal Health Monitoring Through Posture Analysis 
+								<h2 class="alt"> Animal Gait Cycle Signals: 
+									Transforming Eulerian to Lagrangian coordinates 
 							</header>
 
 							<footer>
@@ -123,20 +124,31 @@
 							<header>
 								<h2>Abstract</h2>
 							</header>
-							<p> In this study, state-of-the-art technologies, including deep learning, image processing, and signal processing, 
-								have been leveraged to address the pressing concern of lameness in cattle. Lameness is a significant issue with 
-								far-reaching consequences, affecting both the well-being of the animals and the overall profitability of farms [1-2].
-
-								To tackle this problem, the research focuses on applying advanced methods such as posture estimation and the analysis 
-								of gait cycles in both lame and healthy cows. These technologies play a crucial role in identifying and comprehending
-								 early indicators of lameness. By closely examining the posture and gait patterns of cows, the study aims to establish 
-								 a comprehensive understanding of the factors contributing to lameness.
-								
-								The ultimate goal is to develop a reliable system for early detection of lameness. 
-								This system would facilitate continuous health monitoring, allowing farmers to identify signs of lameness at its onset. 
-								By detecting lameness in its early stages, farmers can implement timely interventions to mitigate its impact on 
-								individual animals and the overall herd. This proactive approach not only improves the welfare of the animals but 
-								also contributes to the enhanced efficiency and profitability of the farm [3-7].</p>
+							<p>The extraction of movement signals from 2D 
+								images of animals poses challenges, primarily arising from the 
+								animal's non-linear movements in various directions and 
+								potential interference caused by the camera moving as the 
+								animal walks. This study presents a novel methodology for 
+								extracting signals from a cow’s gait cycle to address the existing 
+								challenges in the 2D video. The innovation involves a 
+								transformation of images from Eularian or global coordinates to 
+								Lagrangian or local coordinates, with establishing a consistent 
+								reference point on the cow's body via region-based centroid 
+								calculation. By employing image segmentation, image 
+								processing, 2D cross-correlation, and a centroid-based 
+								approach, reliable reference points are extracted on the cow 
+								body, resulting in the signal extraction in the Lagrangian 
+								coordinate system from anatomical keypoints. This coordinate 
+								system transformation enables the exclusion of motion
+								influenced segments to identify a fixed region on the cow’s 
+								body. To validate the signal extraction process, the signals of 
+								video frames and the signals of analytical method are compared 
+								using a simulated sinusoidal signal in the Lagrangian coordinate 
+								system. It was demonstrated that the applied transformation 
+								procedure has 99.83% accuracy. This study contributes 
+								valuable insights into animal movement analysis, presenting an 
+								innovative signal extraction methodology with implications for 
+								signal processing in animal science studies.</p>
 
 
 						</div>
@@ -227,38 +239,31 @@
 						<header>
 							<h2>Details</h2>
 						</header>
-						<p>  At the 24th Annual Alberta Biomedical Engineering Conference held in Banff, AB, on October 27-28, 2023, I presented my research 
-							 a poster session. The focus of the study revolves around addressing the critical issue of lameness in cattle, utilizing state-of-the-art 
-							 technologies such as deep learning, image processing, and signal processing. In the presented research, 
-							 advanced methods such as posture estimation and gait cycle analysis were employed to delve into the complexities of 
-							 lameness in both healthy and lame cows. The significance of this research lies in its potential to identify early indicators of lameness 
-							 by closely examining the posture and gait patterns of the animals. The overarching goal is to develop a reliable system for the early
-							 detection of lameness, enabling continuous health monitoring on farms. </p>
+						<p> At the Proceedings of the Canadian Society for Mechanical Engineering International Congress and the 31st Annual Conference of the 
+							Computational Fluid Dynamics Society of Canada (CSME/CFD2024), held in Toronto, Ontario, from May 26–29, 2024, I presented my research
+							in a paper session. The study addresses the critical issue of cattle lameness through advanced technologies, including deep learning, 
+							image processing, and signal processing. Key methods such as posture estimation and gait cycle analysis were utilized to investigate
+							the complex manifestations of lameness in both healthy and lame cows. This research is significant for its potential to identify early
+							indicators of lameness by examining animal posture and gait patterns in detail. The primary goal is to create a dependable system for 
+							early lameness detection, supporting continuous health monitoring on farms. </p>
 							
 						<p></p>
 
 						<div class="row">
 							<div class="col-4 col-12-mobile">
 								<article class="item">
-									<a href="#" class="image fit"><img src="images1/pic02.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images15/pic02.jpg" alt="" /></a>
 									<header>
-										<h3>Fig 1. My presentation at BME Conference</h3>
+										<h3>Fig 1</h3>
 									</header>
 								</article>
 							</div>
+
 							<div class="col-4 col-12-mobile">
 								<article class="item">
-									<a href="#" class="image fit"><img src="images1/pic03.jpg" alt="" /></a>
+									<a href="#" class="image fit"><img src="images15/pic04.jpg" alt="" /></a>
 									<header>
-										<h3>Fig 2. My presentation at BME Conference</h3>
-									</header>
-								</article>
-							</div>
-							<div class="col-4 col-12-mobile">
-								<article class="item">
-									<a href="#" class="image fit"><img src="images1/pic04.jpg" alt="" /></a>
-									<header>
-										<h3>Fig 3. My presentation at BME Conference</h3>
+										<h3>Fig 2</h3>
 									</header>
 								</article>
 							</div>
@@ -275,7 +280,7 @@
 								<h2>GitHub Code &lt;/&gt;</h2>
 							</header>
 							<ol>
-								<li>     Check << <a href="https://github.com/EmranHn/AI-in-Optimization"> Here</a> >> to access the code, if available, and more details!</li>
+								<li>     Check << <a href="https://github.com/EmranHn"> Here</a> >> to access the code, if available, and more details!</li>
 							</ol>
 
 						</div>
@@ -291,21 +296,22 @@
 								<h2>References</h2>
 							</header>
 							<ol>
-								<li>[1] Booth, C. J., L. D. Warnick, Y. T. Gröhn, D. O. Maizon, C. L. Guard, and D. Janssen. 2004. Effect of
-									lameness on culling in dairy cows. J. Dairy Sci. 87:4115–4122.</li>
-								<li>[2] Ettema, J. F., and S. Ostergaard. 2006. Economic decision making on prevention and control of clinical
-									lameness in Danish dairy herds. Livest. Sci. 102:92–106, MDPI, 1-2</li>
-								<li>[3] Engel, B., Bruin, G., Andre, G., Buist, W., 2003. Assessment of observer performance in a subjective
-									scoring system: visual classification of the gait of cows. J. Agric. Sci. 140, 317–333</li>
-								<li>[4] J.A.M. Van Arendonk, P.E. Stokvisch, S. Korver, and J.K. Oldenbroek, &quot;Factors determining the carcass value
-									of culled dairy cows,&quot; Livest. Prod. Sci., vol. 11, no. 4, pp. 391-400, 1984.</li>
-								<li>[5] M.R.N. Bruijnis, H. Hogeveen, and E.N. Stassen, &quot;Assessing economic consequences of foot disorders in dairy
-									cattle using a dynamic stochastic simulation model,&quot; J. Dairy Sci., vol. 93, pp. 2419-2432, 2010.</li>
-								<li>[6] E. Cha, J.A. Hertl, D. Bar, and Y.T. Grohn, &quot;The cost of different types of lameness in dairy cows calculated by
-									dynamic programming,&quot; Prev. Vet. Med., vol. 97, pp. 1-8, 2010.</li>
-								<li>[7] M. Alsaaod, M. Fadul, and A. Steiner, &quot;Automatic lameness detection in cattle,&quot; Veter. J., vol. 246, pp. 35-44,
-										2019.</li>
-							</ol> 
+								<li>[1] A. Jalal, M. A. K. Quaid, S. B. ud din Tahir, and K. Kim. 2020. A study of accelerometer and gyroscope measurements in physical life-log activities detection systems. <i>Sensors</i> <b>20</b>:6670.</li>
+								<li>[2] Sakai, K., K. Oishi, M. Miwa, H. Kumagai, and H. Hirooka. 2019. Behavior classification of goats using 9-axis multi sensors: the effect of imbalanced datasets on classification performance. <i>Comput. Electron. Agric.</i> <b>166</b>:105027.</li>
+								<li>[3] T. Noda, Y. Kawabata, N. Arai, H. Mitamura, and S. Watanabe. 2014. Animal-mounted gyroscope/accelerometer/magnetometer: in situ measurement of the movement performance of fast-start behavior in fish. <i>J. Exp. Mar. Biol. Ecol.</i> <b>451</b>:55–68.</li>
+								<li>[4] Williams, H. J., et al. 2017. Identification of animal movement patterns using tri-axial magnetometry. <i>Mov. Ecol.</i> <b>5</b>:6.</li>
+								<li>[5] Nixon, M. S., and A. S. Aguado. 2020. Image processing. In <i>Feature Extraction and Image Processing for Computer Vision</i>, Elsevier, pp. 83–139.</li>
+								<li>[6] LeCun, Y., Y. Bengio, and G. Hinton. 2015. Deep learning. <i>Nature</i> <b>521</b>:436–444.</li>
+								<li>[7] Sridhar, V. H., D. G. Roche, and S. Gingins. 2019. Tracktor: image-based automated tracking of animal movement and behavior. <i>Methods Ecol. Evol.</i> <b>10</b>:815–820.</li>
+								<li>[8] Jung, S.-K. 2023. AniWellTracker: image analysis of small animal locomotion in multiwell plates. <i>Appl. Sci.</i> <b>13</b>:2274.</li>
+								<li>[9] Wu, H., et al. 2022. A fully-automated paper ECG digitisation algorithm using deep learning. <i>Sci. Rep.</i> <b>12</b>:20963.</li>
+								<li>[10] Jiang, L., C. Lee, D. Teotia, and S. Ostadabbas. 2022. Animal pose estimation: a closer look at the state-of-the-art, existing gaps and opportunities. <i>Comput. Vis. Image Underst.</i> <b>222</b>:103483.</li>
+								<li>[11] Gong, C., Y. Zhang, Y. Wei, X. Du, L. Su, and Z. Weng. 2022. Multicow pose estimation based on keypoint extraction. <i>PLoS ONE</i> <b>17</b>:e0269259.</li>
+								<li>[12] Pereira, T. D., et al. 2022. SLEAP: a deep learning system for multi-animal pose tracking. <i>Nat. Methods</i> <b>19</b>:486–495.</li>
+								<li>[13] Rakhsha, M., C. E. Kees, and D. Negrut. 2021. Lagrangian vs. Eulerian: an analysis of two solution methods for free-surface flows and fluid-solid interaction problems. <i>Fluids</i> <b>6</b>:460.</li>
+								<li>[14] Price, J. F. 2006. Lagrangian and Eulerian representations of fluid flow: kinematic and the equations of motion. <i>MIT OpenCourseWare</i>, pp. 1–99.</li>
+								<li>[15] Jocher, G., A. Chaurasia, and J. Qiu. 2023. Ultralytics YOLOv8.</li>
+							  </ol>							  
 						</div>
 					</section>
 
@@ -320,7 +326,7 @@
             you with any information you may need. Looking forward to hearing from you!</p>
 
         <!-- Formspree Contact Form -->
-        <form action="https://formspree.io/f/xvoepedy" method="POST">
+        <form action="https://formspree.io/f/xovqwned" method="POST">
             <div class="row">
                 <div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
                 <div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -350,13 +356,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets1/js/jquery.min.js"></script>
-			<script src="assets1/js/jquery.scrolly.min.js"></script>
-			<script src="assets1/js/jquery.scrollex.min.js"></script>
-			<script src="assets1/js/browser.min.js"></script>
-			<script src="assets1/js/breakpoints.min.js"></script>
-			<script src="assets1/js/util.js"></script>
-			<script src="assets1/js/main.js"></script>
+			<script src="assets15/js/jquery.min.js"></script>
+			<script src="assets15/js/jquery.scrolly.min.js"></script>
+			<script src="assets15/js/jquery.scrollex.min.js"></script>
+			<script src="assets15/js/browser.min.js"></script>
+			<script src="assets15/js/breakpoints.min.js"></script>
+			<script src="assets15/js/util.js"></script>
+			<script src="assets15/js/main.js"></script>
 
 	</body>
 </html>
