@@ -315,6 +315,17 @@
 		margin-top: -0.6em;
 	}
 
+	.recent-activities {
+		text-align: center;
+		margin: -10px 10px; /* Adjust spacing above and below */
+	}
+	
+	.recent-activities h2 {
+		font-size: 3em; /* Adjust size as needed */
+		font-weight: bold;
+		color: #ffffff; /* Adjust color as needed */
+	}
+	
 /* Box */
 
 	.thumbnails {
@@ -954,7 +965,7 @@
 		background-color: #70c7be;
 		border-radius: 4px;
 		border: 0;
-		color: #ffffff !important;
+		color: #000000 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -1386,42 +1397,71 @@
 
 			}
 
-/* Footer */
+/* Footer Container */
+#footer {
+    padding: 0em 0 0em 0;
+    background-color: #1b1b1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'sans-serif', sans-serif;
+}
 
-	#footer {
-		padding: 4em 0 2em 0;
-		background-color: #1b1b1f;
-		text-align: center;
-	}
+/* Faded Background Box */
+.footer-content {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 100%;
+}
 
-		#footer .inner {
-			width: 80%;
-			margin: 0 auto;
-		}
+/* Text Styles */
+.footer-content h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
 
-			@media screen and (max-width: 980px) {
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2em;
+    color: #ffffff;
+}
 
-				#footer .inner {
-					width: 75%;
-				}
+.footer-content ul li {
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
 
-			}
+/* Responsive Adjustments */
+@media screen and (max-width: 1980px) {
+    .footer-content {
+        width: 100%;
+    }
+}
 
-			@media screen and (max-width: 480px) {
+@media screen and (max-width: 1480px) {
+    .footer-content {
+        width: 100%;
+        font-size: 1em;
+    }
+}
 
-				#footer .inner {
-					width: 40%;
-				}
+/* Copyright Section */
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin-top: 0em;
+    text-align: center;
+}
 
-			}
-
-		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 0.9em;
-			margin: 0 0 2em 0;
-			padding: 0;
-			text-align: center;
-		}
+		
 .copyright {
 	background-color: #1b1b1f;
 	color: rgba(255, 255, 255, 0.5);
